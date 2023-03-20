@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+   android:background="@drawable/background1"
+   android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                android:orientation="horizontal"
+                    android:layout_weight="0.5">
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.15"
+                        android:text="To"
+                        android:gravity="center|left"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.02"
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="#000"/>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.43"
+                        android:id="@+id/nameid"
+                        android:text="K.Rama Krishna"
+                        android:textStyle="bold"
+                        android:gravity="center|left"
+                        android:paddingLeft="10dp"
+                        android:textSize="15sp"
+                        android:textColor="#000"/>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:id="@+id/dateid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:text="23-10-2019"
+
+
+                    android:textStyle="bold"
+                    android:gravity="center"
+
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:id="@+id/timeid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.15"
+                    android:text="12:30"
+
+
+                    android:textStyle="bold"
+                    android:gravity="center|left"
+
+                    android:textSize="16sp"
+                    android:textColor="#000"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="0.5">
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/raj1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.13"
+                        android:text="Subject"
+                        android:gravity="center|left"
+                        android:paddingLeft="10dp"
+                        android:textColor="#111"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.02"
+                        android:text=" :"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="#000"/>
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/subjectid"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.60"
+                        android:text=""
+                        android:textStyle="bold"
+                        android:gravity="center|left"
+                        android:paddingLeft="10dp"
+                        android:textSize="16sp"
+                        android:textColor="#000"/>
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/sizeid"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.15"
+                        android:text="30KB"
+
+android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:gravity="center|left"
+
+                        android:textSize="16sp"
+                        android:textColor="#000"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+

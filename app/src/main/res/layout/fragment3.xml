@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Educational Details"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:background="@drawable/tableback2"></com.example.employeeinfo.Others.MyTextViewFontStyle>
+       <HorizontalScrollView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                >
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="Degree/ Diploma/ Certificate"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="Degree Specialization"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="Institute and University"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="From"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="To"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="Percentage/CGPA"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                >
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="Graduation"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="B.S.C"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="CBIT,Hyderabad"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="2007"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="2010"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="72%"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                >
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="Post Graduation"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="MBA"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="CBIT, Hyderabad"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="2010"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="2012"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback1"
+                    android:text="73%"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+       </HorizontalScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

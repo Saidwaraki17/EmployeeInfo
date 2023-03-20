@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/background2"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:text="Subject"
+                android:gravity="center|left"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:text=":"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.63"
+                android:background="@drawable/background_edt"
+                android:text="Status Report Submission"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:text="From"
+                android:gravity="center|left"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:text=":"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.63"
+
+                android:text="vinaykumar@gmail.com"
+                android:textStyle="bold"
+                android:background="@drawable/background_edt"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:text="Sent"
+                android:gravity="center|left"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:text=":"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.63"
+                android:id="@+id/sentid"
+                android:text="19-08-2019"
+                android:background="@drawable/background_edt"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:text="To"
+                android:gravity="center|left"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:text=":"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.63"
+                android:id="@+id/nameid"
+                android:text="prakash@gmail.com"
+                android:background="@drawable/background_edt"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:text="CC"
+                android:gravity="center|left"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:text=":"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.63"
+                android:background="@drawable/background_edt"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:text="Attachments"
+
+                android:drawableRight="@drawable/ic_attachment_black_24dp"
+                android:gravity="center|left"
+
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:text=":"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:textSize="15sp"
+                android:textColor="#000"/>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.63"
+                android:background="@drawable/background_edt"
+                android:text="statusreport.docx"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#00f"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background1"
+            android:layout_marginTop="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Respected Sir,\n\nPlease find the Attachments For STATUS REPORT "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="bottom"
+                    android:text="\nThanks and Regards,"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="top"
+                    android:text="Sri Vinay Kumar.V\nGeneral Manager."/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

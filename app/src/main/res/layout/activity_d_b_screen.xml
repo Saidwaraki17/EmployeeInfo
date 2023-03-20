@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/background1"
+    tools:context=".DashBoard.DBScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+android:background="@drawable/background2"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+<com.example.employeeinfo.Others.MyTextViewFontStyle
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:text="Employee Details"
+    android:textColor="#000"
+    android:textStyle="bold"
+    android:textSize="25sp"
+    android:id="@+id/ed"
+    android:gravity="center|left"
+    android:paddingLeft="20dp"
+    android:textAllCaps="false"
+    ></com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/background2"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Employee Works "
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:textAllCaps="false"
+            ></com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/background2"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+    <com.example.employeeinfo.Others.MyTextViewFontStyle
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Attendance"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:textAllCaps="false"
+        ></com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/background2"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+    <com.example.employeeinfo.Others.MyTextViewFontStyle
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Productivity"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:textAllCaps="false"
+        ></com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/background2"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+    <com.example.employeeinfo.Others.MyTextViewFontStyle
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Performance Rating"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:textAllCaps="false"
+        ></com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/background2"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+    <com.example.employeeinfo.Others.MyTextViewFontStyle
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Payments"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:textAllCaps="false"
+        ></com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+</LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

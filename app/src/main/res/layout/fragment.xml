@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:layout_marginTop="5dp"
+    tools:context=".DashBoard.EmployeeDetails">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Personal Information"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:background="@drawable/tableback2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+              >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Employee ID "
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+android:text="ID1001"
+                            android:textColor="#000"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Employee Name"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+android:text="K.Srinivasa Rao"
+                            android:textColor="#000"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Designation"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:text="Assistant Manager"
+                            android:textColor="#000"
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Date of Joining  "
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+                            android:text="17-11-2013"
+
+                            android:textColor="#000"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.35"
+                            android:gravity="left|center"
+                            android:text="Reporting Manager"
+                            android:textColor="#111"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            />
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="0dp"
+                            android:layout_weight="0.02"
+                            android:gravity="center|left"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center|left"
+                            android:text=":"
+                            android:textColor="#111"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.63"
+                            android:layout_height="match_parent"
+
+                            android:orientation="horizontal">
+
+                            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left|center"
+                                android:paddingLeft="10dp"
+                                android:textSize="18dp"
+                                android:imeOptions="flagNoExtractUi"
+                                android:text="K.MadhavaRao"
+
+                                android:textColor="#000"
+                                android:background="@drawable/background_edt"
+                                android:hint="  "
+                                android:inputType="text"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Department"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+                            android:text="Information Technology(IT)"
+                            android:textColor="#000"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Employee Type ID "
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Active Y/N"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.35"
+                            android:gravity="left|center"
+                            android:text="Date of Birth "
+                            android:textColor="#111"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            />
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="0dp"
+                            android:layout_weight="0.02"
+                            android:gravity="center|left"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center|left"
+                            android:text=":"
+                            android:textColor="#111"
+                            android:textSize="18dp"
+                            android:textStyle="bold"/>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.63"
+                            android:layout_height="match_parent"
+
+                            android:orientation="horizontal">
+
+                            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left|center"
+                                android:paddingLeft="10dp"
+                                android:textSize="18dp"
+                                android:imeOptions="flagNoExtractUi"
+                                android:text="23-03-1989"
+
+                                android:textColor="#000"
+                                android:background="@drawable/background_edt"
+                                android:hint="  "
+                                android:inputType="text"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Nationality "
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="PAN No"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+android:text="CMPL3434M"
+                            android:textColor="#000"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Aadhar No "
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+                            android:text="409088987788"
+
+                            android:textColor="#000"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Mobile No"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+                            android:text="9909909908"
+
+                            android:id="@+id/c1"
+                            android:textColor="#00f"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Email "
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:textSize="18dp"
+                            android:imeOptions="flagNoExtractUi"
+android:text="srinivas@gmail.com"
+                            android:textColor="#000"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            android:inputType="text"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.35"
+                        android:gravity="left|center"
+                        android:text="Address"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.02"
+                        android:gravity="center|left"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|left"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.63"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="left|center"
+                            android:paddingLeft="10dp"
+                            android:id="@+id/locid"
+                            android:textSize="18dp"
+                            android:textColor="#00f"
+android:text="Lig-900 ,KPHB Colony\nHyderabad\nTelangana\n500072"
+                            android:background="@drawable/background_edt"
+                            android:hint="  "
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

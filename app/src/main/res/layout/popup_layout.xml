@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/plain_back">
+    <com.example.employeeinfo.Others.MyTextViewFontStyle
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:id="@+id/tv"
+        android:text="Dates"
+        android:textStyle="bold"
+        android:textColor="#C91A1A"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10/03/2019"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19/03/2019"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <!-- <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:layout_marginTop="30dp"
+            android:id="@+id/popupok"/>-->
+    </LinearLayout>
+
+</LinearLayout>

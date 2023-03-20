@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/background1"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="Select Department :"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/state"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/background_edt">
+            <Spinner
+                android:id="@+id/spinnerzone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:entries="@array/deptspin1"
+                android:popupBackground="#fff">
+
+            </Spinner>
+        </LinearLayout>
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Employee ID :"
+            android:textColor="#000"
+            android:visibility="gone"
+android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            ></com.example.employeeinfo.Others.MyTextViewFontStyle>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="5dp">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_edt"
+                android:layout_weight="0.7"
+                android:hint="Enter Employee ID"
+                android:paddingLeft="10dp"
+                android:imeOptions="flagNoExtractUi"
+                android:id="@+id/eid"></EditText>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:text="Submit"
+                android:textSize="18sp"
+                android:id="@+id/subid"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:background="@drawable/buttonbackground"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lay1"
+        android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="#00897B">
+
+
+
+
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:id="@+id/emp_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:background="@drawable/tableback3"
+            android:gravity="center"
+
+            android:text="Employee Name"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:id="@+id/empid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:background="@drawable/tableback3"
+            android:gravity="center"
+
+            android:text="Employee ID"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="Total Working Days"
+            android:gravity="center"
+            android:background="@drawable/tableback3"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/emp_num"/>
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:id="@+id/emp_present"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="Present"
+            android:background="@drawable/tableback3"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:id="@+id/emp_obs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:text="On Leave"
+            android:gravity="center"
+            android:background="@drawable/tableback3"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:id="@+id/emp_leave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tableback3"
+            android:layout_weight="0.15"
+            android:text="Absent"
+            android:gravity="center"
+
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <!--<TextView-->
+        <!--android:id="@+id/emp_remarks"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Remarks"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="18dp"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+           >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Atted_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="5dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+        <com.example.employeeinfo.Others.MyButtonFontStyle
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="OK"
+            android:background="@drawable/buttonbackground"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginBottom="100dp"
+            android:id="@+id/atnid"/>
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

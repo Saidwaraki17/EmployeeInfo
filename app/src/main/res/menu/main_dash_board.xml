@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/threedots"
+        android:title=""
+        app:showAsAction="always"
+        android:orderInCategory="100">
+
+        <menu>
+            <group android:id="@+id/grp3"  >
+                <item
+                    android:id="@+id/homebutton"
+                    android:icon="@drawable/newhome"
+                    android:title="Home"
+                    app:showAsAction="never"
+                    android:orderInCategory="100"/>
+            </group>
+
+            <group android:id="@+id/grp1"  >
+                <item
+                    android:id="@+id/action_refresh"
+                    android:icon="@drawable/refresh"
+                    android:title="Refresh"
+                    app:showAsAction="never"
+                    android:orderInCategory="100"/>
+            </group>
+
+            <group android:id="@+id/grp2"  >
+                <item
+                    android:id="@+id/action_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout"
+                    app:showAsAction="never"
+                    android:orderInCategory="100"/>
+            </group>
+
+
+
+        </menu>
+
+    </item>
+</menu>

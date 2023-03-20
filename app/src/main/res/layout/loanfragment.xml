@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    android:layout_marginTop="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.example.employeeinfo.Others.MyTextViewFontStyle
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Loan Details"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/tableback2"></com.example.employeeinfo.Others.MyTextViewFontStyle>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_weight="0.35"
+                android:layout_height="match_parent"
+                android:text="Loan Type"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:gravity="center|left">
+
+            </com.example.employeeinfo.Others.MyTextViewFontStyle>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="0dp"
+                android:layout_weight="0.02"
+                android:layout_height="match_parent"
+                android:text=":"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:gravity="center|left">
+
+            </com.example.employeeinfo.Others.MyTextViewFontStyle>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.63"
+                android:layout_gravity="center"
+                android:background="@drawable/background_edt">
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/loan"
+                    android:entries="@array/loan"
+                    ></Spinner>
+            </LinearLayout>
+        </LinearLayout>
+
+       <HorizontalScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:visibility="gone"
+               android:id="@+id/loanid"
+               android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            >
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/tableback"
+                android:text="Loan No"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:gravity="center">
+
+            </com.example.employeeinfo.Others.MyTextViewFontStyle>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/tableback"
+                android:text="Sanctioned Date"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:gravity="center">
+
+            </com.example.employeeinfo.Others.MyTextViewFontStyle>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/tableback"
+                android:text="Sanctioned Amount"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:gravity="center">
+
+            </com.example.employeeinfo.Others.MyTextViewFontStyle>
+            <com.example.employeeinfo.Others.MyTextViewFontStyle
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/tableback"
+                android:text="Installment Amount"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:gravity="center">
+
+            </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/tableback"
+                android:orientation="vertical">
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/tableback"
+                    android:text="No of Installments"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="Completed"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tableback"
+                    android:text="Pending"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/tableback"
+                android:orientation="vertical">
+                <com.example.employeeinfo.Others.MyTextViewFontStyle
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/tableback"
+                    android:text="Total Amount"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center">
+
+                </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/tableback"
+                        android:text="Recovered"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center">
+
+                    </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/tableback"
+                        android:text="Pending"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:gravity="center">
+
+                    </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:orientation="horizontal"
+               >
+               <com.example.employeeinfo.Others.MyTextViewFontStyle
+                   android:layout_width="120dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/tableback1"
+                   android:textStyle="bold"
+                   android:textSize="18sp"
+                   android:textColor="#000"
+                   android:text="LD1090"
+                   android:gravity="center">
+
+               </com.example.employeeinfo.Others.MyTextViewFontStyle>
+               <com.example.employeeinfo.Others.MyTextViewFontStyle
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/tableback1"
+                   android:textStyle="bold"
+                   android:textSize="18sp"
+                   android:textColor="#000"
+                   android:text="20-03-2017"
+                   android:gravity="center">
+
+               </com.example.employeeinfo.Others.MyTextViewFontStyle>
+               <com.example.employeeinfo.Others.MyTextViewFontStyle
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/tableback1"
+                   android:textStyle="bold"
+                   android:text="3,00,000"
+                   android:textSize="18sp"
+                   android:textColor="#000"
+                   android:gravity="center">
+
+               </com.example.employeeinfo.Others.MyTextViewFontStyle>
+               <com.example.employeeinfo.Others.MyTextViewFontStyle
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/tableback1"
+                   android:textStyle="bold"
+                   android:textSize="18sp"
+                   android:text="5000"
+                   android:textColor="#000"
+                   android:gravity="center">
+
+               </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+
+               <LinearLayout
+                   android:layout_width="170dp"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
+
+                   <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                       android:text="31"
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                       <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:text="29"
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="190dp"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
+
+
+                       <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:text="1,55,000"
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                       <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:text="1,45,000"
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+               </LinearLayout>
+
+           </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:orientation="horizontal"
+                   >
+                   <com.example.employeeinfo.Others.MyTextViewFontStyle
+                       android:layout_width="120dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/tableback1"
+                       android:textStyle="bold"
+                       android:textSize="18sp"
+                       android:textColor="#000"
+                       android:text=""
+                       android:gravity="center">
+
+                   </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                   <com.example.employeeinfo.Others.MyTextViewFontStyle
+                       android:layout_width="100dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/tableback1"
+                       android:textStyle="bold"
+                       android:textSize="18sp"
+                       android:textColor="#000"
+                       android:text=""
+                       android:gravity="center">
+
+                   </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                   <com.example.employeeinfo.Others.MyTextViewFontStyle
+                       android:layout_width="100dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/tableback1"
+                       android:textStyle="bold"
+                       android:text=""
+                       android:textSize="18sp"
+                       android:textColor="#000"
+                       android:gravity="center">
+
+                   </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                   <com.example.employeeinfo.Others.MyTextViewFontStyle
+                       android:layout_width="100dp"
+                       android:layout_height="match_parent"
+                       android:background="@drawable/tableback1"
+                       android:textStyle="bold"
+                       android:textSize="18sp"
+                       android:text=""
+                       android:textColor="#000"
+                       android:gravity="center">
+
+                   </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+
+                   <LinearLayout
+                       android:layout_width="170dp"
+                       android:layout_height="match_parent"
+                       android:orientation="horizontal">
+
+                       <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:text=""
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                       <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:text=""
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_width="190dp"
+                       android:layout_height="match_parent"
+                       android:orientation="horizontal">
+
+
+                       <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:text=""
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                       <com.example.employeeinfo.Others.MyTextViewFontStyle
+                           android:layout_width="0dp"
+                           android:layout_weight="0.5"
+                           android:layout_height="match_parent"
+                           android:background="@drawable/tableback1"
+                           android:textStyle="bold"
+                           android:textSize="18sp"
+                           android:text=""
+                           android:textColor="#000"
+                           android:gravity="center">
+
+                       </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                   </LinearLayout>
+
+               </LinearLayout>
+
+           </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/loantotamt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_edt"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/addid"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Add new"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background1"
+
+                    android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/locospinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.3"
+                        android:text="Task Name "
+                        android:gravity="center|left"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:layout_weight="0.03"
+                        android:layout_gravity="center"
+                        android:text=":"
+                        android:textColor="#111"
+
+                        android:textSize="18dp"
+
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="0.67"
+                        android:background="@drawable/background_edt"
+                        android:layout_height="match_parent">
+                        <Spinner
+                            android:id="@+id/spinnerlocoshed"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+
+                            android:layout_gravity="center"
+                            android:layout_weight="0.67"
+                            android:entries="@array/dept"
+                            android:popupBackground="#fff" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/npaacdetails_one1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/txt_acno1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.3"
+                        android:text="Available Man Power "
+                        android:textColor="#111"
+                        android:gravity="left|center"
+                        android:textSize="18dp"
+
+                        android:textStyle="bold" />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/d1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.03"
+
+                        android:text=":"
+                        android:textColor="#111"
+
+                        android:textSize="18dp"
+
+                        android:textStyle="bold" />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/edit_acno1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.67"
+                        android:background="@drawable/background_edt"
+                        android:paddingLeft="10dp"
+                        android:gravity="center|left"
+                        android:text="100"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/npaacdetails_two2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/txt_custname1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.3"
+                        android:text="Assigning Man Power"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/d2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.03"
+                        android:text=":"
+                        android:textColor="#111"
+
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/edit_custnme1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_gravity="center"
+                        android:layout_weight="0.67"
+                        android:background="@drawable/background_edt"
+                        android:paddingLeft="10dp"
+                        android:gravity="center|left"
+                        android:text="21"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/account_type1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/txt_account1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Warehouse ID"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+
+
+                        />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/d22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/edit_actype1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:gravity="center|left"
+                        android:layout_toRightOf="@+id/d22"
+                        android:text="1247581 "
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/npa_cusrt_id1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/txt_custid1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.3"
+                        android:text="Total Man Hrs"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/d3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.03"
+                        android:text=":"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:id="@+id/edit_custid1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.67"
+
+                        android:background="@drawable/background_edt"
+                        android:paddingLeft="10dp"
+                        android:gravity="center|left"
+                        android:text="13 Hrs"
+                        android:textColor="#111"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/d1lay"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Departments :"
+                        android:gravity="center|left"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        >
+
+                    </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="320dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_edt"
+                        android:orientation="vertical">
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/c1lay"
+                                    android:orientation="vertical">
+
+
+                                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                        android:layout_width="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_height="40dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:text=" Recovery Department"
+                                        android:gravity="center"
+                                        android:textColor="#000"
+                                        android:background="@drawable/background1"
+                                        android:textStyle="bold"
+                                        android:textSize="20sp"
+                                        >
+
+                                    </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:orientation="vertical">
+
+                                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                            android:layout_width="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_height="30dp"
+                                            android:layout_marginTop="10dp"
+                                            android:paddingLeft="10dp"
+                                            android:text="1. K.Srinivasa Rao"
+                                            android:gravity="center|left"
+                                            android:textColor="#00f"
+                                            android:id="@+id/dd1"
+                                            android:onClick="call12"
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"
+                                            >
+
+                                        </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                            android:layout_width="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_height="30dp"
+                                            android:paddingLeft="10dp"
+                                            android:text="2. D.Pretam"
+                                            android:gravity="center|left"
+                                            android:textColor="#00f"
+                                            android:id="@+id/dd2"
+                                            android:textStyle="bold"
+                                            android:onClick="call12"
+
+                                            android:textSize="18sp"
+                                            >
+
+                                        </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                            android:layout_width="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_height="30dp"
+                                            android:paddingLeft="10dp"
+                                            android:text="3. S.Karan"
+                                            android:gravity="center|left"
+                                            android:textColor="#00f"
+                                            android:id="@+id/dd3"
+                                            android:onClick="call12"
+
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"
+                                            >
+
+                                        </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:id="@+id/c2lay"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="vertical">
+
+
+                                    <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                        android:layout_width="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_height="40dp"
+                                        android:layout_marginRight="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:text="DIT Department"
+                                        android:gravity="center"
+                                        android:textColor="#000"
+                                        android:background="@drawable/background1"
+                                        android:textStyle="bold"
+                                        android:textSize="20sp"
+                                        >
+
+                                    </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp"
+                                        android:orientation="vertical">
+
+                                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                            android:layout_width="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_height="30dp"
+                                            android:layout_marginTop="10dp"
+                                            android:paddingLeft="10dp"
+                                            android:text="1. M.Rakesh Reddy"
+                                            android:gravity="center|left"
+                                            android:textColor="#00f"
+                                            android:onClick="call12"
+
+                                            android:id="@+id/dd4"
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"
+                                            >
+
+                                        </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                            android:layout_width="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_height="30dp"
+                                            android:paddingLeft="10dp"
+                                            android:text="2. S.Seetha"
+                                            android:gravity="center|left"
+                                            android:textColor="#00f"
+                                            android:onClick="call12"
+
+                                            android:id="@+id/dd5"
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"
+                                            >
+
+                                        </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                        <com.example.employeeinfo.Others.MyTextViewFontStyle
+                                            android:layout_width="match_parent"
+                                            android:layout_gravity="center"
+                                            android:layout_height="30dp"
+                                            android:paddingLeft="10dp"
+                                            android:text="3. K.Deepak"
+                                            android:gravity="center|left"
+                                            android:textColor="#00f"
+                                            android:id="@+id/dd6"
+                                            android:onClick="call12"
+
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"
+                                            >
+
+                                        </com.example.employeeinfo.Others.MyTextViewFontStyle>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/okid"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/buttonbackground"
+                    android:text="OK"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

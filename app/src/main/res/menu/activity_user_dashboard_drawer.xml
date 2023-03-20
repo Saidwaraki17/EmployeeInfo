@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/name"
+            android:textSize="5sp"
+            android:title="Name                           :"
+            />
+        <item
+            android:id="@+id/nav_employee_id"
+            android:title="Employee Id                :"
+            />
+        <item
+            android:id="@+id/nav_designation"
+            android:textSize="5sp"
+            android:title="Booking Point                  :"
+            />
+        <item
+            android:textSize="5sp"
+            android:title="Mobile  No                  :"
+            />
+        <item
+            android:id="@+id/nav_contactnumber"
+            android:textSize="5sp"
+            android:title="Incharge Name          :"
+            />
+        <item
+            android:id="@+id/nav_worklocation"
+            android:textSize="5sp"
+            android:title="Incharge Mobile No  :"
+            />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/msg"
+                android:title="Message"
+                android:textSize="5sp"/>
+            <item
+                android:id="@+id/nav_createuser"
+                android:icon="@drawable/person"
+                android:title="Create User"
+                android:visible="false"
+                android:textSize="5sp"/>
+
+
+
+        </menu>
+    </item>
+
+</menu>

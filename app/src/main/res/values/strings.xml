@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">m-Performance</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="leaves">
+        <item>Select</item>
+        <item>Casual Leaves</item>
+        <item>Earned Leaves</item>
+        <item>Loss Of Pay</item>
+        <item>Marriage Leaves</item>
+        <item>Maternity Leaves</item>
+        <item>Sick Leaves</item>
+    </string-array>
+    <string-array name="loan">
+        <item>Select</item>
+        <item>Educational Loan</item>
+        <item>Personal Loan</item>
+        <item>House Loan</item>
+        <item>Vehicle Loan </item>
+
+    </string-array>
+    <string-array name="wkp">
+        <item>Select</item>
+        <item>SG20JB001</item>
+        <item>SG20JB002</item>
+        <item>SG20JB003</item>
+        <item>SG20JB004</item>
+        <item>SG20JB005</item>
+        <item>SG20JB006</item>
+
+    </string-array>
+    <string-array name="mm">
+        <item>Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="deptspin">
+        <item>Select</item>
+        <item>Assistant Manager</item>
+        <item>Deputy Manager</item>
+        <item>Manager</item>
+        <item>Senior Manager</item>
+        <item>Officer</item>
+        <item>Chief Manager</item>
+        <item>AGM</item>
+        <item>GM</item>
+    </string-array>
+    <string-array name="deptspin1">
+        <item>Select</item>
+        <item>Recovery and Legal</item>
+        <item>DIT</item>
+        <item>Treasury</item>
+        <item>Manager</item>
+        <item>Resource Planning</item>
+        <item>Marketing</item>
+        <item>New Project Development</item>
+        <item>Corporate Credit</item>
+        <item>Inspection and Auditing</item>
+        <item>Agriculture Credit</item>
+
+    </string-array>
+    <string-array name="year">
+        <item>Year</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+
+    </string-array>
+    <string-array name="dept">
+        <item>Select</item>
+        <item>Task 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+        <item>Task 4 </item>
+
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDceZYpjirtyeQ6bRZ1s-twzNOIXIQqCKU</string>
+</resources>
